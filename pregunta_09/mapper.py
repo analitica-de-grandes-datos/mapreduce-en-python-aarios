@@ -3,7 +3,7 @@
 #
 import sys 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     for line in sys.stdin:
         clave, letras = line.strip().split("\t")
         for letra in letras.split(','):

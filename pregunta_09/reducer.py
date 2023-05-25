@@ -4,7 +4,7 @@
 
 import sys 
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     l = []
     for line in sys.stdin:
         key, fe, val = line.strip().split(",")
