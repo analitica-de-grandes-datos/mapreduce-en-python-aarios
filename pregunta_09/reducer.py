@@ -2,9 +2,8 @@
 # >>> Escriba el codigo del reducer a partir de este punto <<<
 #
 
-import sys 
-
-if __name__ == '_main_':
+import sys
+if __name__ == '__main__':
     l = []
     for line in sys.stdin:
         key, fe, val = line.strip().split(",")
